@@ -1,0 +1,46 @@
+/*Global*/
+
+li { margin-bottom: 15px; }
+a:hover { color: black; }
+.brown { color: #B09F67; }
+
+#logo {
+  height: 18px;
+  margin-top: 15px;
+  padding-left: 3px;
+}
+
+
+/*Home*/
+
+#selections {
+  width: 100% !important;
+}
+
+.selection {
+  min-height: 380px;
+  border-radius: 5px;
+}
+
+
+/*Wallpapers*/
+
+.wallpaper-thumbnail {
+  width: 128px;
+  height: 128px;
+}
+
+@media only screen and (max-width: 40em) {
+  .wallpaper-thumbnail {
+    margin-top: 25px;
+    margin-left: 15px;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
+/*Additions*/
+
+.b--brown { border-top: 10px solid #a0824f; }
