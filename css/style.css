@@ -1,46 +1,9 @@
-/*Global*/
-
-li { margin-bottom: 15px; }
-a:hover { color: black; }
-.brown { color: #B09F67; }
-
-#logo {
-  height: 18px;
-  margin-top: 15px;
-  padding-left: 3px;
+#banner {
+  background-image: url("http://www.cortes.us/wp-content/uploads/2016/07/shaped-outline-bg.png");
+  background-size: 1440px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
 }
 
-
-/*Home*/
-
-#selections {
-  width: 100% !important;
-}
-
-.selection {
-  min-height: 380px;
-  border-radius: 5px;
-}
-
-
-/*Wallpapers*/
-
-.wallpaper-thumbnail {
-  width: 128px;
-  height: 128px;
-}
-
-@media only screen and (max-width: 40em) {
-  .wallpaper-thumbnail {
-    margin-top: 25px;
-    margin-left: 15px;
-    border-radius: 100%;
-    width: 80px;
-    height: 80px;
-  }
-}
-
-
-/*Additions*/
-
-.b--brown { border-top: 10px solid #a0824f; }
+.title-tracking { letter-spacing: 1px; }
