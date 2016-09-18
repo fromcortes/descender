@@ -1,6 +1,6 @@
 #banner {
-  background-image: url("http://www.cortes.us/wp-content/uploads/2016/07/shaped-outline-bg.png");
-  background-size: 120px;
+  background-image: url("http://www.cortes.us/wp-content/uploads/2016/07/shaped-outline-bg.png") !important;
+  background-size: 1200px;
   background-repeat: repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -21,4 +21,47 @@
       margin-bottom: -500em;
     }
   }
+}
+
+/*Resources*/
+.navigation-logo { filter: invert(100%); }
+
+/*Background Animation*/
+
+@-webkit-keyframes animate-bg {
+  0% { background-position: 0px 0px; }
+  50% { background-position: 0px 250px; }
+  100% { background-position: 0px 500px; }
+}
+
+@keyframes animate-bg {
+  0% { background-position: 0px 0px; }
+  50% { background-position: 0px 250px; }
+  100% { background-position: 0px 500px; }
+}
+
+@-webkit-keyframes animate-bg-sink {
+  100% { background-position: 0px 500px; }
+}
+
+@keyframes animate-bg-sink {
+  100% { background-position: 0px 500px; }
+}
+
+.animate-bg {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-animation-name: animate-bg;
+  animation-name: animate-bg;
+  -webkit-animation-duration: 50s, 50s;
+  animation-duration: 50s, 50s;
+  -webkit-animation-delay: 0s, 0s;
+  animation-delay: 0s, 0s;
+  -webkit-animation-iteration-count: 5, infinite;
+  animation-iteration-count: 5, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
 }
