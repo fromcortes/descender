@@ -1,7 +1,7 @@
 #banner {
   background-image: url("http://www.cortes.us/wp-content/uploads/2016/07/shaped-outline-bg.png");
-  background-size: 1440px;
-  background-repeat: no-repeat;
+  background-size: 120px;
+  background-repeat: repeat;
   background-position: center top;
   background-attachment: fixed;
 }
@@ -10,5 +10,15 @@
 .shadow-custom { box-shadow: 0px 20px 40px -10px rgba(0,0,0, 0.15); }
 
 @media only screen and (min-width: 480px) {
-  #about-section { margin-top: -40px; }
+    #about-section { margin-top: -30px; }
+    .left-cta {
+      padding-bottom: 503em;
+      margin-bottom: -500em;
+    }
+    .right-cta {
+      margin-right: -1px; /* Thank you IE */
+      padding-bottom: 503em;
+      margin-bottom: -500em;
+    }
+  }
 }
