@@ -49,6 +49,7 @@
 }
 
 .animate-bg {
+  z-index: 999;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
