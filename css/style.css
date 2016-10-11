@@ -6,13 +6,15 @@
   background-attachment: fixed;
 }
 
-.title-tracking { letter-spacing: 1px; }
-.shadow-custom  { box-shadow: 0px 20px 40px -10px rgba(0,0,0, 0.15); }
-.lora           { font-family: "Lora", Georgia, serif; }
-.c-red          { color: #F37565; }
-  .c-tan        { color: #E8E2D4; }
-.bg-tan         { background-color: #E8E2D4; }
-.bg-c-red       { background-color: #F37565; }
+.title-tracking     { letter-spacing: 1px; }
+.shadow-custom      { box-shadow: 0px 20px 40px -10px rgba(0,0,0, 0.15); }
+.lora               { font-family: "Lora", Georgia, serif; }
+.c-red              { color: #F37565; }
+.c-tan              { color: #E8E2D4; }
+.bg-tan             { background-color: #E8E2D4; }
+.bg-c-red           { background-color: #F37565; }
+.hover-c-red:hover  { color: #F37565; }
+.hover-c-tan:hover  { color: #E8E2D4; }
 
 
 @media only screen and (min-width: 480px) {
